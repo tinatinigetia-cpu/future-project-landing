@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>თანამედროვე ლენდინგ გვერდი</title>
+    <!-- ქართული შრიფტის ჩართვა -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header სექცია -->
+    <header class="header">
+        <div class="container header-content">
+            <a href="#" class="logo">ჩემი<span>პროექტი</span></a>
+            <nav class="nav-links">
+                <a href="#hero">მთავარი</a>
+                <a href="#about">შესახებ</a>
+                <a href="#features">ფუნქციები</a>
+                <a href="#contact" class="btn-primary-outline">კონტაქტი</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero სექცია -->
+    <section id="hero" class="hero">
+        <div class="container hero-content">
+            <h1>შექმენი შენი მომავალი ჩვენთან ერთად</h1>
+            <p>თანამედროვე, სწრაფი და სანდო გადაწყვეტილებები თქვენი ბიზნესის გასავითარებლად.</p>
+            <a href="#contact" class="btn-primary">დაიწყე ახლავე</a>
+        </div>
+    </section>
+
+    <!-- პროექტის შესახებ (About) სექცია -->
+    <section id="about" class="about">
+        <div class="container about-content">
+            <div class="about-text">
+                <h2>პროექტის შესახებ</h2>
+                <p>ჩვენი მიზანია შევქმნათ ინოვაციური პროდუქტები, რომლებიც გაამარტივებს თქვენს ყოველდღიურობას. ჩვენი გუნდი მუდმივად მუშაობს ახალ იდეებზე და იყენებს უახლეს ტექნოლოგიებს, რათა მოგაწოდოთ საუკეთესო გამოცდილება.</p>
+            </div>
+            <div class="about-image">
+                <!-- პლეისჰოლდერი სურათისთვის -->
+                <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="გუნდის მუშაობა">
+            </div>
+        </div>
+    </section>
+
+    <!-- ფუნქციები (Features) სექცია -->
+    <section id="features" class="features bg-light">
+        <div class="container">
+            <h2 class="section-title">რატომ უნდა აგვირჩიოთ ჩვენ?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="icon">🚀</div>
+                    <h3>სისწრაფე</h3>
+                    <p>ჩვენი სისტემა ოპტიმიზებულია მაქსიმალური სისწრაფისთვის, რაც დაგიზოგავთ დროს.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">🔒</div>
+                    <h3>უსაფრთხოება</h3>
+                    <p>თქვენი მონაცემები დაცულია უახლესი დაშიფრვის სტანდარტების გამოყენებით.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">💡</div>
+                    <h3>ინოვაცია</h3>
+                    <p>ჩვენ ვიყენებთ თანამედროვე ტექნოლოგიებს, რათა ყოველთვის წინ ვიყოთ.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- საკონტაქტო ფორმა -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">დაგვიკავშირდით</h2>
+            <form class="contact-form" action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">სახელი</label>
+                    <input type="text" id="name" name="name" placeholder="ჩაწერეთ თქვენი სახელი" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">ელ-ფოსტა</label>
+                    <input type="email" id="email" name="email" placeholder="ჩაწერეთ თქვენი ელ-ფოსტა" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">შეტყობინება</label>
+                    <textarea id="message" name="message" rows="5" placeholder="როგორ შეგვიძლია დაგეხმაროთ?" required></textarea>
+                </div>
+                <button type="submit" class="btn-primary btn-block">გაგზავნა</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 ჩემი პროექტი. ყველა უფლება დაცულია.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
